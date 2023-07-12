@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Kir
+  m_EditorClassIdentifier: 
+  _id: 3200029
+  _name: Kir Recipe
+  _discription: "\uD0A4\uB974"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 40f3b00e2042023438b2be71c41f1ec1, type: 2}
+    modifier: 1
+    Capacity: 90
+  - itemData: {fileID: 11400000, guid: fc99c1fd5a2a3744491a4b7de0e718f0, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 4a4a89055231b324485dca360426f88d, type: 2}
+    modifier: 0
+    Capacity: 1

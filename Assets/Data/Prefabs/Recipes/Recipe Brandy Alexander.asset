@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Brandy Alexander
+  m_EditorClassIdentifier: 
+  _id: 3200004
+  _name: Brandy Alexander Recipe
+  _discription: "\uBE0C\uB79C\uB514 \uC54C\uB809\uC0B0\uB354"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 2
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: 45c6fcd3a65b9874a9eac3e254a9e8e1, type: 2}
+    modifier: 2
+    Capacity: 22
+  - itemData: {fileID: 11400000, guid: 6c6c8a0d124a6684ebae849024fcb32b, type: 2}
+    modifier: 2
+    Capacity: 22
+  - itemData: {fileID: 11400000, guid: 9861b14219d427f4885b4f0b759d9e44, type: 2}
+    modifier: 2
+    Capacity: 22
+  - itemData: {fileID: 11400000, guid: 2fb5e8979af94374aac1d97d48c71134, type: 2}
+    modifier: 0
+    Capacity: 1

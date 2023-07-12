@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Rusty Nail
+  m_EditorClassIdentifier: 
+  _id: 3200008
+  _name: Rusty Nail Recipe
+  _discription: "\uB7EC\uC2A4\uD2F0\uB124\uC77C"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 1
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: fdca6efdcf19b114cbc2b0b98aa8fb0b, type: 2}
+    modifier: 1
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: ce77c4957165c6f47b3dcb3f150b42e5, type: 2}
+    modifier: 1
+    Capacity: 15

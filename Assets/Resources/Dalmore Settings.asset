@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda310214996cab44a2480ebf14cc29b, type: 3}
+  m_Name: Dalmore Settings
+  m_EditorClassIdentifier: 
+  makingLog: {fileID: 11400000, guid: 097716d1ab3ed8441bc25f2105b301c5, type: 2}
+  orderSheet: {fileID: 11400000, guid: 358bcca24b682cb4fa52605646c8eda5, type: 2}
+  orderWindow: {fileID: 11400000, guid: 984357de494fc104d9d6aa5884583098, type: 2}
+  menu: {fileID: 11400000, guid: 71e4c9103f48a934fb3af8707fc141e1, type: 2}
+  itemDB: {fileID: 11400000, guid: 22d4bf55d24d3c54397a66c849206ece, type: 2}
+  recipeDB: {fileID: 11400000, guid: b71528ad17cee11428e630a5b6177fd2, type: 2}

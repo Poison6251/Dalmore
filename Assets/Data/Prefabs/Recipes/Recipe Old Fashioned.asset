@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Old Fashioned
+  m_EditorClassIdentifier: 
+  _id: 3200003
+  _name: Old Fashioned Recipe
+  _discription: "\uC62C\uB4DC\uD328\uC158\uB4DC"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: d7832f2a06ad2394b81031c241923781, type: 2}
+    modifier: 1
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: c96536714f5656346915715eaf1fc8f4, type: 2}
+    modifier: 1
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: f6255506b06fbf748a142ff2bd0176e3, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 1
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: 56f646dbc5113b14c884436bf1e0ec3c, type: 2}
+    modifier: 1
+    Capacity: 45
+  - itemData: {fileID: 11400000, guid: d1e796f9d34e89b409e889cf1d8b8e00, type: 2}
+    modifier: 0
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: 2af17699dc1050c44a65ca5a190f0aef, type: 2}
+    modifier: 0
+    Capacity: 1

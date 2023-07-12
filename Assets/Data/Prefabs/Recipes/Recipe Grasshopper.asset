@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Grasshopper
+  m_EditorClassIdentifier: 
+  _id: 3200016
+  _name: Grasshopper Recipe
+  _discription: "\uADF8\uB798\uC2A4\uD558\uD37C"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 2
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: f0b2c74e93f55974bb7ac3fe6e1459a8, type: 2}
+    modifier: 2
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: 29c485ada56ccff4ab997de9352292cf, type: 2}
+    modifier: 2
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: 9861b14219d427f4885b4f0b759d9e44, type: 2}
+    modifier: 2
+    Capacity: 30

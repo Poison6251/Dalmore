@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Cosmopolitan Cocktail
+  m_EditorClassIdentifier: 
+  _id: 3200024
+  _name: Cosmopolitan Cocktail Recipe
+  _discription: "\uCF54\uC2A4\uBAA8\uD3F4\uB9AC\uD0C4"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 2
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: fcdce1b46f9d48a4c9ff70406bdc8f58, type: 2}
+    modifier: 2
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: f48479653da0ebb4c962fb377a9a27c3, type: 2}
+    modifier: 2
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 5a2b5c9e5c1ead845a7a6c76704bbe15, type: 2}
+    modifier: 2
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 8b26d3e67db3ff04fb0eb2af1fefde37, type: 2}
+    modifier: 2
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 4a4a89055231b324485dca360426f88d, type: 2}
+    modifier: 0
+    Capacity: 1

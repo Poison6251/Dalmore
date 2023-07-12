@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5708f1612f5f3f478f22c931a916104, type: 3}
+  m_Name: "Cr\xE8me De Cacao(Brown)"
+  m_EditorClassIdentifier: 
+  _id: 1200004
+  _name: "Cr\xE8me De Cacao(Brown)"
+  _discription: "\uD06C\uB818\uB4DC \uCE74\uCE74\uC624 \uBE0C\uB77C\uC6B4"
+  price: 20000
+  count: 1
+  max: 700

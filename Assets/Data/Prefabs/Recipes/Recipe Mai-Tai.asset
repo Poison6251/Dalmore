@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Mai-Tai
+  m_EditorClassIdentifier: 
+  _id: 3200022
+  _name: Mai-Tai Recipe
+  _discription: "\uB9C8\uC774\uD0C0\uC774"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: acedce2e0aaa2904cae552e7f8a0cc02, type: 2}
+    modifier: 8
+    Capacity: 37
+  - itemData: {fileID: 11400000, guid: f48479653da0ebb4c962fb377a9a27c3, type: 2}
+    modifier: 8
+    Capacity: 22
+  - itemData: {fileID: 11400000, guid: 5a2b5c9e5c1ead845a7a6c76704bbe15, type: 2}
+    modifier: 8
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: 1d847a4296db0594fabcf3ff356690e1, type: 2}
+    modifier: 8
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: f87977153973ed94594add126b862642, type: 2}
+    modifier: 8
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: 237f09a901da6d949b13b523acf3a2df, type: 2}
+    modifier: 8
+    Capacity: 7
+  - itemData: {fileID: 11400000, guid: 29dc94550a6a7c34fbabd8f51737d1f9, type: 2}
+    modifier: 8
+    Capacity: 16
+  - itemData: {fileID: 11400000, guid: 7d8acae0c456c5f4e92035d8c4af984d, type: 2}
+    modifier: 0
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: 2af17699dc1050c44a65ca5a190f0aef, type: 2}
+    modifier: 0
+    Capacity: 1

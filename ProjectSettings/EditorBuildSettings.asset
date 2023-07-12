@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Test/Scene/MainFlow.unity
+    guid: c52c85aa2d04e664a84d3012f101c09c
+  - enabled: 1
+    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/GestureExamples.unity
+    guid: 4ee2a082a0e621b49ab01667c66f1599
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3c3d60fb238b25d42b977a0e17bede99, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 4a7b131230e2cce439f55973296a7e60, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 6411070294f93ee408cf012705353f14, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4db99c99a0224714bbe55f8028ac5964, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2d5d016a9d128346943c7a42c0698e3, type: 2}

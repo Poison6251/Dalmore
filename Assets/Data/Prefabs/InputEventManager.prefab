@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8741893540238867952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8741893540238867955}
+  - component: {fileID: 8741893540238867954}
+  - component: {fileID: 8741893540238867953}
+  m_Layer: 0
+  m_Name: InputEventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8741893540238867955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741893540238867952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8741893540238867954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741893540238867952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a56762268195d7439ac5a3e4c9e0cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_leftHand: {fileID: 0}
+  m_rightHand: {fileID: 0}
+  m_pi: {fileID: 8741893540238867953}
+--- !u!114 &8741893540238867953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741893540238867952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: f7dd54dec621dfc4eabb6ec899193f59, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftHandTriggerPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6da8d1b8-304e-4fb0-bacb-b1011a0a5b46
+    m_ActionName: Oculus/Select
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftHandTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 46d831e0-0259-4c13-80fc-9d01fb03bf7d
+    m_ActionName: Oculus/Select Value
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftIndexTriggerPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fda103bc-d351-4197-a8a8-7d7f00e07f75
+    m_ActionName: Oculus/Activate
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftIndexTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6dc8808f-4f72-454f-bea7-14e8c73b8a90
+    m_ActionName: Oculus/Activate Value
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftThumbstick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c79ab121-64d6-46c6-bcba-c57318bc859d
+    m_ActionName: Oculus/Translate Anchor
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnXButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5643a94c-df89-47d6-ab02-77422e336e0a
+    m_ActionName: Oculus/menu
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightIndexTriggerPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 683a669a-c7ef-4044-8354-ca38aeea21ac
+    m_ActionName: Oculus/Right Index Trigger Pressed
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightIndexTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b8c0953a-bedf-43c8-ae8c-a0a836a6f003
+    m_ActionName: Oculus/Right Index Tirgger
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightHandTriggerPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1bb07063-2627-43a0-ab08-c3258e936ef1
+    m_ActionName: Oculus/Right Hand Trigger Pressed
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightHandTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: aaf11975-46f3-49be-8de2-134c0e44bed1
+    m_ActionName: Oculus/Right Hand Trigger
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightThumbstick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 54a0354b-1c47-4afd-a633-70d0ee502661
+    m_ActionName: Oculus/Right Thumb Stick
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightThumbstickPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d0d732fa-fe38-4429-9aad-bab4c3dd05de
+    m_ActionName: Oculus/Right Thumb Stick Pressed
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnAButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: beea52ae-4a00-4437-9e73-3fb66e88d25c
+    m_ActionName: Oculus/A Button
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnBButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2271e08f-3564-40f8-9e5f-f90b95dc293e
+    m_ActionName: Oculus/B Button
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnReservedButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 60c32396-0f95-4c3c-a23d-ef223e69d6ea
+    m_ActionName: Oculus/Reserved Button
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnLeftThumbstickPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cc6beeed-cd3a-43ae-8421-81c092a5515e
+    m_ActionName: Oculus/Left Thumb Stick Pressed
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnYButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 492a0722-5d39-4c1b-829b-41e933e142bf
+    m_ActionName: Oculus/Y Button
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnStartButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1e32d03c-eba5-4910-bb52-523d1f1b4013
+    m_ActionName: Oculus/Start Button
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightHandMousePosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a0c6b91f-c79f-4208-84c6-9c5b9a1d1f62
+    m_ActionName: Oculus/Right Hand Mouse Position1[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741893540238867954}
+        m_TargetAssemblyTypeName: DalmoreInputEventManager, Assembly-CSharp
+        m_MethodName: OnRightHandPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8ede78a8-c742-4190-99f2-89ceb1b9e422
+    m_ActionName: Oculus/Right Hand Position
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Oculus
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

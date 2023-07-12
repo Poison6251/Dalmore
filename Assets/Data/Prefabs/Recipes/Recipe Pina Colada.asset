@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Pina Colada
+  m_EditorClassIdentifier: 
+  _id: 3200023
+  _name: Pina Colada Recipe
+  _discription: "\uD53C\uB098 \uCF5C\uB77C\uB2E4"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: acedce2e0aaa2904cae552e7f8a0cc02, type: 2}
+    modifier: 8
+    Capacity: 37
+  - itemData: {fileID: 11400000, guid: 7c9a404e3527a514f80503625d1f8ef4, type: 2}
+    modifier: 8
+    Capacity: 60
+  - itemData: {fileID: 11400000, guid: 1d847a4296db0594fabcf3ff356690e1, type: 2}
+    modifier: 8
+    Capacity: 60
+  - itemData: {fileID: 11400000, guid: 29dc94550a6a7c34fbabd8f51737d1f9, type: 2}
+    modifier: 8
+    Capacity: 16
+  - itemData: {fileID: 11400000, guid: 7d8acae0c456c5f4e92035d8c4af984d, type: 2}
+    modifier: 0
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: 2af17699dc1050c44a65ca5a190f0aef, type: 2}
+    modifier: 0
+    Capacity: 1

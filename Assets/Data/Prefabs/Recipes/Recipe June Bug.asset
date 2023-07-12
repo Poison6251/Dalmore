@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe June Bug
+  m_EditorClassIdentifier: 
+  _id: 3200013
+  _name: June Bug Recipe
+  _discription: "\uC900\uBC85"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 0
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 2
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: 40fa4a50cbeffaa4391c9ce9ec693908, type: 2}
+    modifier: 2
+    Capacity: 30
+  - itemData: {fileID: 11400000, guid: 65027cdcb16e17b479b89f0cb49d6a51, type: 2}
+    modifier: 2
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: ad4d8997776275647bc7c14a0eacbe99, type: 2}
+    modifier: 2
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 1d847a4296db0594fabcf3ff356690e1, type: 2}
+    modifier: 2
+    Capacity: 60
+  - itemData: {fileID: 11400000, guid: cb507bd280c4bb24ab76d66a54db5649, type: 2}
+    modifier: 2
+    Capacity: 60
+  - itemData: {fileID: 11400000, guid: 7d8acae0c456c5f4e92035d8c4af984d, type: 2}
+    modifier: 0
+    Capacity: 1
+  - itemData: {fileID: 11400000, guid: 2af17699dc1050c44a65ca5a190f0aef, type: 2}
+    modifier: 0
+    Capacity: 1

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d436a83a4d5da2c4388061ef103d31ad, type: 3}
+  m_Name: Recipe Long Island Iced Tea
+  m_EditorClassIdentifier: 
+  _id: 3200020
+  _name: Long Island Iced Tea Recipe
+  _discription: "\uB871 \uC544\uC77C\uB79C\uB4DC \uC544\uC774\uC2A4 \uD2F0"
+  price: 0
+  data:
+  - itemData: {fileID: 11400000, guid: 2e21933a6576aa54da2a85152056d225, type: 2}
+    modifier: 1
+    Capacity: 8
+  - itemData: {fileID: 11400000, guid: 7df3c873f8d982c4390d2a0ac742a14e, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: fcdce1b46f9d48a4c9ff70406bdc8f58, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: acedce2e0aaa2904cae552e7f8a0cc02, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: 9c4c80602cc20934581b66bd377248c5, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: f48479653da0ebb4c962fb377a9a27c3, type: 2}
+    modifier: 1
+    Capacity: 15
+  - itemData: {fileID: 11400000, guid: cb507bd280c4bb24ab76d66a54db5649, type: 2}
+    modifier: 1
+    Capacity: 45
+  - itemData: {fileID: 11400000, guid: 9ad026fe64e05414ca6f6c22eb67b49e, type: 2}
+    modifier: 0
+    Capacity: 0
+  - itemData: {fileID: 11400000, guid: d71ba0576f557d04f828a63205cf32a7, type: 2}
+    modifier: 0
+    Capacity: 1

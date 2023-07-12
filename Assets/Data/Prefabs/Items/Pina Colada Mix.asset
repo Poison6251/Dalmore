@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5708f1612f5f3f478f22c931a916104, type: 3}
+  m_Name: Pina Colada Mix
+  m_EditorClassIdentifier: 
+  _id: 1210009
+  _name: Pina Colada Mix
+  _discription: "\uD53C\uB098 \uCF5C\uB77C\uB2E4 \uBBF9\uC2A4"
+  price: 10000
+  count: 1
+  max: 1000
